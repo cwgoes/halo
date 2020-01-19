@@ -28,3 +28,7 @@ uint = "0.8"
 
 [features]
 gadget-traces = ["backtrace"]
+
+[[bin]]
+name = "halo"
+path = "examples/paper.rs"
